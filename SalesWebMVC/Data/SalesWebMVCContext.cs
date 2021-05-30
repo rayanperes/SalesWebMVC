@@ -10,7 +10,7 @@ namespace SalesWebMVC.Data
     public class SalesWebMVCContext : DbContext
     {
         public SalesWebMVCContext (DbContextOptions<SalesWebMVCContext> options)
-            : base(options)
+              : base(options)
         {
         }
 
